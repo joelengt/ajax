@@ -1,5 +1,5 @@
 
-$.get('../other_html.html', function (element) {
+$.get('http://joelengt.github.io/ajax/other_html.html', function (element) {
 	console.log(element)
 	$('body').find('.loader').remove()
 	$('#new-content').append(element)
