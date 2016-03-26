@@ -1,5 +1,6 @@
 
 $.get('../other_html.html', function (element) {
+	console.log(element)
 	$('body').find('.loader').remove()
 	$('#new-content').append(element)
 })
